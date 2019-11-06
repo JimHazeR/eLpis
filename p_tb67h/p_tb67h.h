@@ -6,7 +6,7 @@
 class p_tb67h{
 public:
     p_tb67h(uint8_t _in1, uint8_t _in2, byte _pwm);
-    on();
+    on(int power);
     stop();
 
 private:

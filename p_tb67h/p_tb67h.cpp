@@ -32,3 +32,9 @@ p_tb67h::on(int power){
         analogWrite(_pwm,-1*power);
     }
 }
+
+p_tb67h::stop(){
+    digitalWrite(_in1,LOW);
+    digitalWrite(_in2,LOW);
+    analogWrite(_pwm,0);
+}
