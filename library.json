@@ -1,0 +1,26 @@
+{
+    "name": "p_tb67h",
+    "version": "0.1.1",
+    "description": "To make easier to use p_tb67h",
+    "keywords": "",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/JimHazeR/eLpis.git"
+    },
+    "authors":
+    [
+      {
+        "name": "JimHazeR",
+        "email": "haz@vivaldi.net",
+        "url": "https://haz.vivaldi.net"
+      }
+    ],
+    "license": "WTFPL",
+    "homepage": "https://haz.vivaldi.net",
+    "dependencies": {
+     
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
