@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "p_tb67h.h"
 
-p_tb67h::p_tb67h(uint8_t in1, uint8_t in2, uint8_t pwm, bool lo1, bool lo2){
+p_tb67h::p_tb67h(uint8_t in1, uint8_t in2, uint8_t pwm, uint8_t lo1, uint8_t lo2){
     _in1 = in1;
     _in2 = in2;
     _pwm = pwm;
