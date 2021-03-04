@@ -22,6 +22,13 @@ void p_tb67h::on(int power){
         power = -255;
     }
 
+    if(0 > power && power > -50){
+        power = -50;
+    }
+    else if(0 < power && power < 50){
+        power = 50;
+    }
+
     if(power>0){
         digitalWrite(_in1,HIGH);
         digitalWrite(_in2,LOW);
